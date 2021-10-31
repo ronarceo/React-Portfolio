@@ -10,16 +10,16 @@ function Header({ currentPage, handlePageChange }) {
                     </a>
                 </a>
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	text-gray-400 flex flex-wrap items-center text-base justify-center">
-                    <a href="#about" className="mr-5 hover:text-white" onClick={() => handlePageChange('About')}>
+                    <a href="#about" className={currentPage === 'About' ? 'mr-5 text-white' : 'mr-5 hover:text-white'} onClick={() => handlePageChange('About')}>
                         About Me
                     </a>
-                    <a href="#portfolio" className="mr-5 hover:text-white" onClick={() => handlePageChange('Portfolio')}>
+                    <a href="#portfolio" className={currentPage === 'Portfolio' ? 'mr-5 text-white' : 'mr-5 hover:text-white'} onClick={() => handlePageChange('Portfolio')}>
                         Portfolio
                     </a>
-                    <a href="#contact" className="mr-5 hover:text-white" onClick={() => handlePageChange('Contact')}>
+                    <a href="#contact" className={currentPage === 'Contact' ? 'mr-5 text-white' : 'mr-5 hover:text-white'} onClick={() => handlePageChange('Contact')}>
                         Contact
                     </a>
-                    <a href="#resume" className="mr-5 hover:text-white" onClick={() => handlePageChange('Resume')}>
+                    <a href="#resume" className={currentPage === 'Resume' ? 'mr-5 text-white' : 'mr-5 hover:text-white'} onClick={() => handlePageChange('Resume')}>
                         Resume
                     </a>
                 </nav>
