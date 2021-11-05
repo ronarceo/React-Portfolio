@@ -1,60 +1,50 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "wandir",
+    subtitle: "https://github.com/FullstackNomads/wandir",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "An app for travelers embarking on a trip that helps them connect and meet with other people around the world.",
+    image: "./wandir.png",
+    link: "https://fullstacknomads.herokuapp.com/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Online/Offline Budget Tracker",
+    subtitle: "https://github.com/ronarceo/Online-Offline-Budget-Tracker",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "A budget tracker application that allows for offline access and functionality. The user is able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, the total is updated when brought back online.",
+    image: "./budget-tracker.png",
+    link: "https://budget-tracker--web-app.herokuapp.com/",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Workout Tracker",
+    subtitle: "https://github.com/ronarceo/Workout-Tracker",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "An app that that allows users to reach their fitness goals quicker by allowing them to track their progress.",
+    image: "./workout-tracker.png",
+    link: "https://track-your-exercises.herokuapp.com/",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Model View Controller Tech Blog",
+    subtitle: "https://github.com/ronarceo/Model-View-Controller-MVC-Tech-Blog",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+      "a CMS-style blog where developers can publish their blog posts and comment on other developers’s posts.",
+    image: "./tech-blog.png",
+    link: "https://full-stack-tech-blog.herokuapp.com/",
   },
   {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+    title: "Note Taker",
+    subtitle: "https://github.com/ronarceo/Note-Taker",
+    description:
+      "A web application that can be used to write and save notes.",
+    image: "./note-taker.png",
+    link: "https://note-taker-ronarceo.herokuapp.com/",
   },
-];
-
-export const skills = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  {
+    title: "Weather Dashboard",
+    subtitle: "https://github.com/ronarceo/Weather-Dashboard",
+    description:
+      "A web application that displays weather outlooks for multiple cities allowing travelers to plan their trips accordingly.",
+    image: "./weather-dashboard.png",
+    link: "https://ronarceo.github.io/Weather-Dashboard/",
+  }
 ];
