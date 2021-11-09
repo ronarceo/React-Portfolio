@@ -8,18 +8,14 @@ export default function Resume() {
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
-        <li>jQuery</li>
         <li>React</li>
-        <li>Bootsrap</li>
       </ul>
       <h3>Back-End Proficiencies:</h3>
       <ul>
-        <li>API's</li>
         <li>Node</li>
         <li>Express</li>
         <li>MySQL</li>
-        <li>MongoDB, Mongoose</li>
-        <li>MERN Stack</li>
+        <li>MongoDB</li>
       </ul>
       <iframe
         src="https://drive.google.com/file/d/1fR6FpIPe0sDAepiJ39HUEuBcijbXWzdz/preview"
