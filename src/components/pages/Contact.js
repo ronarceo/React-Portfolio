@@ -46,7 +46,7 @@ export default function Contact() {
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
-        <form netlify name="contact">
+        <form name="contact">
           <h2 className="sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact
           </h2>
@@ -93,6 +93,7 @@ export default function Contact() {
               onChange={handleInputChange}
               placeholder="Enter Your Message"
               required
+              rows="4" cols="50"
               className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             />
           </div>
