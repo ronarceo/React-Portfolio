@@ -3,6 +3,12 @@ import React from 'react';
 export default function Resume() {
   return (
     <section>
+      <iframe
+        src="https://drive.google.com/file/d/1fR6FpIPe0sDAepiJ39HUEuBcijbXWzdz/preview"
+        allow="autoplay"
+        title="Ronald Arceo Resume"
+        height="500" width="100%"
+      ></iframe>
       <div className="text-center mb-20">
         <a
           className="download "
@@ -11,12 +17,6 @@ export default function Resume() {
           Click here to download my resume
         </a>
       </div>
-      <iframe
-        src="https://drive.google.com/file/d/1fR6FpIPe0sDAepiJ39HUEuBcijbXWzdz/preview"
-        allow="autoplay"
-        title="Ronald Arceo Resume"
-        height="500" width="100%"
-      ></iframe>
     </section>
   )
 }
